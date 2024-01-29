@@ -1,0 +1,56 @@
+
+/* body{
+    
+    display: flex;
+    justify-content: center;
+    
+} */
+.container{
+    margin-top: 50px;
+    position: relative;
+    left:10rem;
+
+
+}
+.col{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.col .crear{
+   width: 100px;
+
+}
+
+table{
+    width: 50rem;
+    /* margin-top: 100px; */
+}
+thead{
+  
+   color:white;
+}
+tbody{
+    background-color: rgba(22, 166, 244, 0.2);
+}
+tbody tr td{
+    text-align: center;
+
+}
+
+thead tr th{
+    text-align: center;
+    height: 40px;
+}
+.card-header{
+  
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.btn-crear{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
